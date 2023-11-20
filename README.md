@@ -1,24 +1,3 @@
-# EHR 2.0
-
-
-## Live
-Live site hosted in firebase
- [Click here](https://ehr-2-0.web.app/)
-
-## For Full working project 
-
--- Apponitments <br>
--- Pdf upload <br>
--- and much more. <br>
-
-Demo : [Youtube](https://youtu.be/d_-pWoGgdVs)
-<br>
-Setup : [Youtube](https://youtube.com/playlist?list=PL54V-i7zW55d1VKxEkp9DCPt5k_zE6m3X)
-
-contact : 
-[Mail](mailto:tshamil90@gmail.com?Subject=ehr-blockchain&Body=Hi,)
-`tshamil90@gmail.com`
-
 🆁🅴🆀🆄🅸🆁🅴🅼🅴🅽🆃🆂
 
 1.Install nodeJs
@@ -67,7 +46,3 @@ npm install -g truffle
 ```
 npm start
 ```
-
-Known Issue: (https://github.com/shamil-t/ehr-blockchain/issues/15)
-
-
