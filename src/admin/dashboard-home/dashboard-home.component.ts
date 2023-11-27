@@ -11,7 +11,7 @@ export class DashboardHomeComponent implements OnInit {
   Titles: any = ['Total Patients','In Patients','Active Doctors','Active Nurses']
   Images: any = ['user-injured','procedures','user-md','user-nurse']
   Count: number = 0
-  Background: any = ['green','orange','blue','violet']
+  Background: any = ['black','orange','gray','black']
 
   accountBalance: any;
 
@@ -19,10 +19,12 @@ export class DashboardHomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.accountBalance = this.blockchainService.getBalance()
-    console.log(this.accountBalance);
+    console.log('this.blockchainService.getAccount()', this.blockchainService.getAccount());
 
     let getBalance = setInterval(() => {
       this.accountBalance = this.blockchainService.getBalance()
+      console.log(this.blockchainService);
+
       if(this.accountBalance != null){
         this.accountBalance /= 1000000000000000000
         console.log("Balance",this.accountBalance);
@@ -30,9 +32,4 @@ export class DashboardHomeComponent implements OnInit {
       }
     },1000)
   }
-
-
-  
-  
-
 }

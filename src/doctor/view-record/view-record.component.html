@@ -1,11 +1,6 @@
 <div class="container-fluid">
   <div class="container">
     <div class="h3">View Patient Record</div>
-    <form class="patient__id" #patForm="ngForm" (ngSubmit)="onPatIDSubmit()">
-      <input [(ngModel)]="model.patID" name="patID" #patID type="text" class="form-control"
-        placeholder="Patient ID (0x00000000000000000000000000000000000000000)">
-      <button type="submit" class="btn btn-primary">Consult</button>
-    </form>
 
     <app-progress_card [show]="showProgress" [msg_text]="progressMsg" [success]="progressSuccess" [warn]="progressWarn"
       (close)="onProgressClose()"></app-progress_card>

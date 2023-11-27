@@ -2,9 +2,14 @@
   .nav-link
     margin-left: 3px
     border-bottom: 2px solid #ffffff
-    border-radius: 10px 10px 0px 0px
+    border-radius: 10px
+    background: gray
+    color: white
+    &.active
+      background: orange
+      color: black
     &:hover
-      border-bottom: 2px solid #0e6dfb
+      border-bottom: 2px solid orange
 
 .content
   .tab-content
@@ -13,5 +18,3 @@
     overflow-y: scroll
     overflow-x: hidden
     scroll-behavior: smooth
-
-
