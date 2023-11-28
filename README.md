@@ -1,5 +1,4 @@
-🆁🅴🆀🆄🅸🆁🅴🅼🅴🅽🆃🆂
-
+<h1>MedChain</h1>
 1.Install nodeJs
 
 * [Node JS](https://nodejs.org/en/download/)
